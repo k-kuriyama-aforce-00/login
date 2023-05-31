@@ -8,7 +8,6 @@
 </head>
 <body> 
 
-<%HttpSession session=request.getSession(); %>
 <%String id = request.getParameter("id"); %>
 
 <P>ようこそ、<%=id%>さん！</P>
